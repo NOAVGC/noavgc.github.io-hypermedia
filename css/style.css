@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Changa:wght@200..800&family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Changa:wght@200..800&family=Sixtyfour:SCAN@100&display=swap');
 
 #navbar ul {
   list-style-type: none;
@@ -9,4 +9,10 @@
 .navbar-item {
   display: inline-block;
   font-family: 'Sixtyfour', sans-serif;
+  font-size: 30px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0,
+  "SCAN" -5;
 }
