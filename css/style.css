@@ -93,3 +93,14 @@ p {
   align-items: center;
   gap: 20px;
 }
+
+footer {
+  background-color: #94C3FF;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+footer > p {
+  color: black;
+}
