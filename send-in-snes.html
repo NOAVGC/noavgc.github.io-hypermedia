@@ -5,6 +5,15 @@
   <link rel="icon" type="image/x-icon" href="/assets/images/MisterTV-logo.svg">
   <link rel="stylesheet" href="css/style.css">
   <title>Mr. TV's Retro Refresh | Send-In | SNES</title>
+  <!-- Style in head element -->
+  <style>
+    form {
+      display: flex;
+      flex-direction: column;
+      background-color: #EAE7E7;
+      padding: 10px 40px;
+    }
+  </style>
 </head>
 
 <body>
@@ -25,8 +34,24 @@
 
 <div class="send-in-form">
   <img src="assets/images/SNES.jpg" alt="SNES" width="500px"/>
+  <!-- Advanced HTML5 element #3 and #4 -->
   <form>
     <h2>Choose Options</h2>
+    <div class="option-row"><input type="checkbox" id="repair" name="repair" value="repair">
+      <label for="repair">Diagnosis and repair +$80</label></div>
+    <label for="repair-description">Describe the issue:</label>
+    <textarea id="repair-description" name="repair-description" rows="6">Please describe the issue</textarea>
+    <div class="option-row"><input type="checkbox" id="recap" name="recap" value="recap">
+      <label for="recap">Recap +$50</label></div>
+    <div class="option-row"><input type="checkbox" id="2-chip-edge-enhancer" name="2-chip-edge-enhancer"
+                                   value="1-chip-edge-enhancer">
+      <label for="2-chip-edge-enhancer">Edge enhancer (2-chip only) +$100</label></div>
+    <div class="option-row"><input type="checkbox" id="RGB-enhancer" name="RGB-enhancer" value="RGB-enhancer">
+      <label for="RGB-enhancer">RGB enhancer (1-chip only) +$50</label></div>
+    <div class="option-row"><input type="checkbox" id="ghosting-capacitor" name="ghosting-capacitor"
+                                   value="ghosting-capacitor">
+      <label for="ghosting-capacitor">Ghosting capacitor replacement +$20</label></div>
+    <button>Add to cart</button>
   </form>
 </div>
 

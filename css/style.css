@@ -1,3 +1,4 @@
+/* External style sheet */
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Changa:wght@200..800&family=Sixtyfour:SCAN@100&display=swap');
 
 body {
@@ -110,7 +111,7 @@ footer > p {
   background-color: #EAE7E7;
   width: auto;
   margin: 50px 75px;
-  padding: 0px 30px 20px 30px;
+  padding: 0 30px 20px 30px;
 }
 
 .news-item > h2 p {
@@ -159,5 +160,12 @@ footer > p {
 }
 
 .send-in-form {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+  margin-left: 60px;
+}
+
+.option-row {
   display: flex;
 }
